@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89D33CB3D3BDCBCA3ABA0E1E /* Pods_EloGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F62CCA7DB9513775AE9089 /* Pods_EloGroup.framework */; };
 		E21F2B1A2541080E00DDB303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F2B192541080E00DDB303 /* AppDelegate.swift */; };
 		E21F2B1C2541080E00DDB303 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F2B1B2541080E00DDB303 /* SceneDelegate.swift */; };
-		E21F2B1E2541080E00DDB303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F2B1D2541080E00DDB303 /* ViewController.swift */; };
 		E21F2B212541080F00DDB303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21F2B1F2541080F00DDB303 /* Main.storyboard */; };
 		E21F2B232541081000DDB303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21F2B222541081000DDB303 /* Assets.xcassets */; };
 		E21F2B262541081000DDB303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21F2B242541081000DDB303 /* LaunchScreen.storyboard */; };
+		E21F2B3125411F1C00DDB303 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F2B3025411F1C00DDB303 /* Constans.swift */; };
+		E21F2B3525411F9B00DDB303 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F2B3425411F9B00DDB303 /* LoginViewController.swift */; };
+		E21F2B3825411FC100DDB303 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F2B3725411FC100DDB303 /* RegisterViewController.swift */; };
+		E21F2B3C2541224400DDB303 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F2B3B2541224400DDB303 /* WelcomeViewController.swift */; };
+		E21F2B6125419D0800DDB303 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E21F2B6025419D0800DDB303 /* GoogleService-Info.plist */; };
+		E21F2B7E2541EBC400DDB303 /* LeadCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F2B7D2541EBC400DDB303 /* LeadCellViewController.swift */; };
+		E21F2B81254201ED00DDB303 /* Lead.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F2B80254201ED00DDB303 /* Lead.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41F62CCA7DB9513775AE9089 /* Pods_EloGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EloGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2451212ACA33EB19C9C923 /* Pods-EloGroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EloGroup.debug.xcconfig"; path = "Target Support Files/Pods-EloGroup/Pods-EloGroup.debug.xcconfig"; sourceTree = "<group>"; };
+		B19741147E2BBFC081704700 /* Pods-EloGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EloGroup.release.xcconfig"; path = "Target Support Files/Pods-EloGroup/Pods-EloGroup.release.xcconfig"; sourceTree = "<group>"; };
 		E21F2B162541080E00DDB303 /* EloGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EloGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21F2B192541080E00DDB303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E21F2B1B2541080E00DDB303 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E21F2B1D2541080E00DDB303 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E21F2B202541080F00DDB303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E21F2B222541081000DDB303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E21F2B252541081000DDB303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E21F2B272541081000DDB303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21F2B3025411F1C00DDB303 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		E21F2B3425411F9B00DDB303 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E21F2B3725411FC100DDB303 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E21F2B3B2541224400DDB303 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		E21F2B6025419D0800DDB303 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E21F2B7D2541EBC400DDB303 /* LeadCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadCellViewController.swift; sourceTree = "<group>"; };
+		E21F2B80254201ED00DDB303 /* Lead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lead.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D33CB3D3BDCBCA3ABA0E1E /* Pods_EloGroup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A5684856BEFFADA70FFCC0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E2451212ACA33EB19C9C923 /* Pods-EloGroup.debug.xcconfig */,
+				B19741147E2BBFC081704700 /* Pods-EloGroup.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4DB6B98871E5367E70E7618B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41F62CCA7DB9513775AE9089 /* Pods_EloGroup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E21F2B0D2541080E00DDB303 = {
 			isa = PBXGroup;
 			children = (
 				E21F2B182541080E00DDB303 /* EloGroup */,
+				E21F2B6025419D0800DDB303 /* GoogleService-Info.plist */,
 				E21F2B172541080E00DDB303 /* Products */,
+				1A5684856BEFFADA70FFCC0E /* Pods */,
+				4DB6B98871E5367E70E7618B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +95,42 @@
 			children = (
 				E21F2B192541080E00DDB303 /* AppDelegate.swift */,
 				E21F2B1B2541080E00DDB303 /* SceneDelegate.swift */,
-				E21F2B1D2541080E00DDB303 /* ViewController.swift */,
-				E21F2B1F2541080F00DDB303 /* Main.storyboard */,
+				E21F2B3325411F2200DDB303 /* Model */,
+				E21F2B2E25411EF100DDB303 /* Controler */,
+				E21F2B2F25411EFB00DDB303 /* View */,
 				E21F2B222541081000DDB303 /* Assets.xcassets */,
 				E21F2B242541081000DDB303 /* LaunchScreen.storyboard */,
 				E21F2B272541081000DDB303 /* Info.plist */,
 			);
 			path = EloGroup;
+			sourceTree = "<group>";
+		};
+		E21F2B2E25411EF100DDB303 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				E21F2B3B2541224400DDB303 /* WelcomeViewController.swift */,
+				E21F2B3425411F9B00DDB303 /* LoginViewController.swift */,
+				E21F2B3725411FC100DDB303 /* RegisterViewController.swift */,
+				E21F2B7D2541EBC400DDB303 /* LeadCellViewController.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		E21F2B2F25411EFB00DDB303 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E21F2B1F2541080F00DDB303 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E21F2B3325411F2200DDB303 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E21F2B3025411F1C00DDB303 /* Constans.swift */,
+				E21F2B80254201ED00DDB303 /* Lead.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21F2B2A2541081000DDB303 /* Build configuration list for PBXNativeTarget "EloGroup" */;
 			buildPhases = (
+				6BE8949EC412AC48D4BB2959 /* [CP] Check Pods Manifest.lock */,
 				E21F2B122541080E00DDB303 /* Sources */,
 				E21F2B132541080E00DDB303 /* Frameworks */,
 				E21F2B142541080E00DDB303 /* Resources */,
+				966C36F2C1CD99A7DDD2EE80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +195,66 @@
 				E21F2B262541081000DDB303 /* LaunchScreen.storyboard in Resources */,
 				E21F2B232541081000DDB303 /* Assets.xcassets in Resources */,
 				E21F2B212541080F00DDB303 /* Main.storyboard in Resources */,
+				E21F2B6125419D0800DDB303 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BE8949EC412AC48D4BB2959 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EloGroup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		966C36F2C1CD99A7DDD2EE80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EloGroup/Pods-EloGroup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EloGroup/Pods-EloGroup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EloGroup/Pods-EloGroup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E21F2B122541080E00DDB303 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21F2B1E2541080E00DDB303 /* ViewController.swift in Sources */,
 				E21F2B1A2541080E00DDB303 /* AppDelegate.swift in Sources */,
+				E21F2B3125411F1C00DDB303 /* Constans.swift in Sources */,
+				E21F2B7E2541EBC400DDB303 /* LeadCellViewController.swift in Sources */,
+				E21F2B81254201ED00DDB303 /* Lead.swift in Sources */,
+				E21F2B3825411FC100DDB303 /* RegisterViewController.swift in Sources */,
+				E21F2B3C2541224400DDB303 /* WelcomeViewController.swift in Sources */,
+				E21F2B3525411F9B00DDB303 /* LoginViewController.swift in Sources */,
 				E21F2B1C2541080E00DDB303 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +399,7 @@
 		};
 		E21F2B2B2541081000DDB303 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2451212ACA33EB19C9C923 /* Pods-EloGroup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +419,7 @@
 		};
 		E21F2B2C2541081000DDB303 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B19741147E2BBFC081704700 /* Pods-EloGroup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
