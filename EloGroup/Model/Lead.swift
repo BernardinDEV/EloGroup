@@ -41,3 +41,9 @@ class Status {
     }
     
 }
+
+class Client : Object{
+    @objc dynamic var name: String = ""
+    
+    
+}

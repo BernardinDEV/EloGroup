@@ -12,6 +12,7 @@ class LeadCellViewController : UITableViewController {
     let realm = try! Realm()
     var lead : Results<Lead>?
     var newlead = Lead()
+    var client : Results<Client>?
     var info = ""
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -201,6 +202,7 @@ class LeadCellViewController : UITableViewController {
             let inalert  = UIAlertController(title: "Clinte add", message: "", preferredStyle: .actionSheet)
             inalert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
             present(inalert , animated: true, completion:  nil)
+            client?[indexPath.row].name = (lead?[indexPath.row].nome)!
         }
         
         
